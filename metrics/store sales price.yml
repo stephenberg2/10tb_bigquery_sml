@@ -1,4 +1,4 @@
-unique_name: Store Sales Price
+unique_name: store sales price
 object_type: metric
 label: Store Sales Price
 calculation_method: sum

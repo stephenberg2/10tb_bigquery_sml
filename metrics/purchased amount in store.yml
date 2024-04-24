@@ -1,4 +1,4 @@
-unique_name: Purchased Amount In Store
+unique_name: purchased amount in store
 object_type: metric
 label: Purchased Amount In Store
 calculation_method: sum

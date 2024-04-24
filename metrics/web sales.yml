@@ -1,4 +1,4 @@
-unique_name: Web Sales
+unique_name: web sales
 object_type: metric
 label: Web Sales
 calculation_method: sum

@@ -1,4 +1,4 @@
-unique_name: Web Customer Count
+unique_name: web customer count
 object_type: metric
 label: Web Customer Count
 calculation_method: count non-null

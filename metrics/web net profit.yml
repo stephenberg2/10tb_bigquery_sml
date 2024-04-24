@@ -1,4 +1,4 @@
-unique_name: Web Net Profit
+unique_name: web net profit
 object_type: metric
 label: Web Net Profit
 description: web_sales.ws_net_profit_sum

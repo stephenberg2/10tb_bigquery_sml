@@ -1,4 +1,4 @@
-unique_name: Store Net Paid Incl Tax
+unique_name: store net paid incl tax
 object_type: metric
 label: Store Net Paid Incl Tax
 description: store_sales.ss_net_paid_inc_tax_sum

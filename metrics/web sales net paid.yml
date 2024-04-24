@@ -1,4 +1,4 @@
-unique_name: Web Sales Net Paid
+unique_name: web sales net paid
 object_type: metric
 label: Web Sales Net Paid
 calculation_method: sum

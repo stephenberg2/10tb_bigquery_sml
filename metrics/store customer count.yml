@@ -1,4 +1,4 @@
-unique_name: Store Customer Count
+unique_name: store customer count
 object_type: metric
 label: Store Customer Count
 calculation_method: count non-null
