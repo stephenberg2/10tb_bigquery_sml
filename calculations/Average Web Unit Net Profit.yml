@@ -2,4 +2,5 @@ unique_name: Average Web Unit Net Profit
 object_type: metric_calc
 label: Average Web Unit Net Profit
 description: net profit divided by quanity
-expression: "[Measures].[m_ws_net_profit_sum]/[Measures].[m_ws_quantity_sum]"
+expression: '[Measures].[m_ws_net_profit_sum]/[Measures].[m_ws_quantity_sum]'
+is_hidden: false

@@ -1,4 +1,4 @@
-unique_name: m_ss_sales_price_avg
+unique_name: avg store sales price
 object_type: metric
 label: Average Store Sales Sales Price
 calculation_method: average
