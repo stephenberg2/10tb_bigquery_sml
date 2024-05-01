@@ -1,9 +1,6 @@
 unique_name: date_dim
 object_type: dataset
 label: date_dim
-connection_id: big query
-table: date_dim
-
 columns:
   - name: D_CURRENT_DAY
     data_type: string
@@ -61,21 +58,26 @@ columns:
     data_type: long
   - name: D_YEAR
     data_type: long
-  - name: TimeStamp Test
+  - name: D_DATETIME
     data_type: datetime
-    sql: CAST(D_DATE as TIMESTAMP)
+    sql: DATETIME(D_DATE)
   - name: YEAR_MONTH
     data_type: date
-    sql: "CAST(CONCAT(SUBSTRING(CAST(D_DATE AS string),1,4), '-', SUBSTRING(CAST(D_DATE\
-      \ AS string),6,2),'-01') AS DATE)"
+    sql: >-
+      CAST(CONCAT(SUBSTRING(CAST(D_DATE AS string),1,4), '-',
+      SUBSTRING(CAST(D_DATE AS string),6,2),'-01') AS DATE)
   - name: YEAR_QUARTER
     data_type: date
-    sql: "CAST(CONCAT(SUBSTRING(CAST(D_DATE AS STRING),1,4), '-', LPAD(TRIM(D_QOY),\
-      \ 2, '0'), '-01') AS DATE)"
+    sql: >-
+      CAST(CONCAT(SUBSTRING(CAST(D_DATE AS STRING),1,4), '-', LPAD(TRIM(D_QOY),
+      2, '0'), '-01') AS DATE)
   - name: YEAR_WEEK
     data_type: string
-    sql: "CONCAT(SUBSTRING(CAST(D_DATE AS STRING),1,4), '-', SUBSTRING(CAST(D_DATE\
-      \ AS STRING),6,2), '-', LPAD(CAST(D_WEEK_SEQ AS STRING), 2, '0'))"
+    sql: >-
+      CONCAT(SUBSTRING(CAST(D_DATE AS STRING),1,4), '-', SUBSTRING(CAST(D_DATE
+      AS STRING),6,2), '-', LPAD(CAST(D_WEEK_SEQ AS STRING), 2, '0'))
   - name: test year
     data_type: date
-    sql: "DATE_TRUNC(D_DATE, YEAR)"
+    sql: DATE_TRUNC(D_DATE, YEAR)
+connection_id: big query
+table: date_dim
