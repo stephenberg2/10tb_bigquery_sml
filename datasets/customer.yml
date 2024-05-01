@@ -1,7 +1,7 @@
 unique_name: customer
 object_type: dataset
 label: customer
-connection_id: Big Query TPC
+connection_id: big query
 table: customer
 
 columns:

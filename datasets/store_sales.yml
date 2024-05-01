@@ -1,7 +1,7 @@
 unique_name: store_sales
 object_type: dataset
 label: store_sales
-connection_id: Big Query TPC
+connection_id: big query
 table: store_sales
 
 columns:

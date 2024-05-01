@@ -1,0 +1,6 @@
+unique_name: big query
+label: big query
+object_type: connection
+as_connection: big query
+database: benchmark-251817
+schema: tpcds_10tb

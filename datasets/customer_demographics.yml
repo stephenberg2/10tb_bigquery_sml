@@ -1,7 +1,7 @@
 unique_name: customer_demographics
 object_type: dataset
 label: customer_demographics
-connection_id: Big Query TPC
+connection_id: big query
 table: customer_demographics
 
 columns:

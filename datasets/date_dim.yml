@@ -1,7 +1,7 @@
 unique_name: date_dim
 object_type: dataset
 label: date_dim
-connection_id: Big Query TPC
+connection_id: big query
 table: date_dim
 
 columns:

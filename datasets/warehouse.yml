@@ -1,7 +1,7 @@
 unique_name: warehouse
 object_type: dataset
 label: warehouse
-connection_id: Big Query TPC
+connection_id: big query
 table: warehouse
 
 columns:

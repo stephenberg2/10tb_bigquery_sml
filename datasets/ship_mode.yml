@@ -1,7 +1,7 @@
 unique_name: ship_mode
 object_type: dataset
 label: ship_mode
-connection_id: Big Query TPC
+connection_id: big query
 table: ship_mode
 
 columns:

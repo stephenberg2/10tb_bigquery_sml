@@ -1,7 +1,7 @@
 unique_name: item
 object_type: dataset
 label: item
-connection_id: Big Query TPC
+connection_id: big query
 table: item
 
 columns:

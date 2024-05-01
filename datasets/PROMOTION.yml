@@ -1,7 +1,7 @@
 unique_name: PROMOTION
 object_type: dataset
 label: PROMOTION
-connection_id: Big Query TPC
+connection_id: big query
 table: promotion
 
 columns:

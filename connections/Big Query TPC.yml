@@ -1,6 +1,0 @@
-unique_name: Big Query TPC
-label: Big Query TPC
-object_type: connection
-as_connection: Big Query TPC
-database: benchmark-251817
-schema: tpcds_10tb
