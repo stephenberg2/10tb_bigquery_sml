@@ -2,6 +2,6 @@ unique_name: avg store list price
 object_type: metric
 label: Average Store Sales List Price
 calculation_method: average
-unrelated_dimensions_handling: empty
-dataset: store_sales
 column: SS_LIST_PRICE
+dataset: store_sales
+unrelated_dimensions_handling: empty

@@ -2,5 +2,5 @@ unique_name: store customer count
 object_type: metric
 label: Store Customer Count
 calculation_method: count non-null
-dataset: store_sales
 column: SS_CUSTOMER_SK
+dataset: store_sales

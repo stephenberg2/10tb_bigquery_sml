@@ -3,7 +3,7 @@ object_type: metric
 label: Store Quantity Sold
 description: store_sales.ss_quantity_sum
 calculation_method: sum
-format: Standard
-unrelated_dimensions_handling: empty
-dataset: store_sales
 column: SS_QUANTITY
+dataset: store_sales
+format: general number
+unrelated_dimensions_handling: empty

@@ -2,5 +2,6 @@ unique_name: web customer count
 object_type: metric
 label: Web Customer Count
 calculation_method: count non-null
-dataset: web_sales
 column: WS_BILL_CUSTOMER_SK
+dataset: web_sales
+format: general number

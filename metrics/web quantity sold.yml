@@ -3,6 +3,7 @@ object_type: metric
 label: Web Quantity Sold
 description: web_sales.ws_quantity_sum
 calculation_method: sum
-unrelated_dimensions_handling: empty
-dataset: web_sales
 column: WS_QUANTITY
+dataset: web_sales
+format: general number
+unrelated_dimensions_handling: empty

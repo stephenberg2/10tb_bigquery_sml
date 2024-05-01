@@ -2,5 +2,5 @@ unique_name: store coupon amount
 object_type: metric
 label: Store Coupon Amount
 calculation_method: sum
-dataset: store_sales
 column: SS_COUPON_AMT
+dataset: store_sales

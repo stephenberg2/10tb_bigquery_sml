@@ -2,5 +2,6 @@ unique_name: store sales row counter
 object_type: metric
 label: Store Sales Row Counter
 calculation_method: sum
-dataset: store_sales
 column: SS ROW COUNTER
+dataset: store_sales
+format: general number

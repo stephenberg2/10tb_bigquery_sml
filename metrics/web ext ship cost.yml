@@ -5,4 +5,5 @@ description: web_sales.ws_ext_ship_cost_sum
 calculation_method: sum
 column: WS_EXT_SHIP_COST
 dataset: web_sales
+format: general number
 unrelated_dimensions_handling: empty

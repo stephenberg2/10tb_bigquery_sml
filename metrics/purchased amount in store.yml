@@ -2,5 +2,5 @@ unique_name: purchased amount in store
 object_type: metric
 label: Purchased Amount In Store
 calculation_method: sum
-dataset: store_sales
 column: Purchased Amount in Store
+dataset: store_sales

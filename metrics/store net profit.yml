@@ -3,6 +3,7 @@ object_type: metric
 label: Store Net Profit
 description: store_sales.ss_net_profit_sum
 calculation_method: sum
-unrelated_dimensions_handling: empty
-dataset: store_sales
 column: SS_NET_PROFIT
+dataset: store_sales
+format: $#,##0.00
+unrelated_dimensions_handling: empty
