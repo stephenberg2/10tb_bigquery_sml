@@ -84,7 +84,6 @@ level_attributes:
       - PeriodsToDate
       - Range
     dataset: date_dim
-    format: YYYY
     key_columns:
       - D_YEAR
     name_column: D_YEAR
