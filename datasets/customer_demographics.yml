@@ -1,9 +1,6 @@
 unique_name: customer_demographics
 object_type: dataset
 label: customer_demographics
-connection_id: big query
-table: customer_demographics
-
 columns:
   - name: CD_CREDIT_RATING
     data_type: string
@@ -23,3 +20,5 @@ columns:
     data_type: string
   - name: CD_PURCHASE_ESTIMATE
     data_type: long
+connection_id: big query
+table: customer_demographics

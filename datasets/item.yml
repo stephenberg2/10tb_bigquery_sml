@@ -1,9 +1,6 @@
 unique_name: item
 object_type: dataset
 label: item
-connection_id: big query
-table: item
-
 columns:
   - name: I_BRAND
     data_type: string
@@ -22,7 +19,7 @@ columns:
   - name: I_CONTAINER
     data_type: string
   - name: I_CURRENT_PRICE
-    data_type: "decimal(38,9)"
+    data_type: decimal(38,9)
   - name: I_FORMULATION
     data_type: string
   - name: I_ITEM_DESC
@@ -48,4 +45,6 @@ columns:
   - name: I_UNITS
     data_type: string
   - name: I_WHOLESALE_COST
-    data_type: "decimal(38,9)"
+    data_type: decimal(38,9)
+connection_id: big query
+table: item
